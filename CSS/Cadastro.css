@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../Imagens/Fundo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+#LhamaCadastro {
+    width: 10vh;
+    height: auto;
+    max-height: 20vh;
+}
+
+.Tela {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 5vh;
+    padding: 2vh;
+    text-align: center;
+}
+
+.logoTitulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.CadastrarUsuario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(121, 89, 188, 0.3); /*Aqui eu coloquei uma cor toda fudida, meio que pra ficar legal o fundo transparente*/
+    backdrop-filter: blur(3px); /*Deixa o fundin da card de cadastro meio transparente OBS: quanto maior o valor mais embaçado fica */
+    max-width: 500px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.btnCadastro {
+    height: 45px;
+    width: 100%;
+    background-color: #4F308E;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btnCadastro:hover {
+    background-color: #3b2370;
+    cursor: pointer;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 20px;
+}
+
+/*Essas linhas aqui em baixo é oque deixa o site responsito*/
+@media (max-width: 576px)/*aqui eu to falando o widht que ele meio q começa a mudar, 576px é o tamanho médio dos celular*/ {
+    .CadastrarUsuario {
+        padding: 1rem;
+    }
+
+    .logoTitulo h1 {
+        font-size: 28px;
+    }
+
+    #LhamaCadastro {
+        width: 8vh;
+    }
+}

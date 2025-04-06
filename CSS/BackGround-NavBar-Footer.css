@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    align-items: center;
+    background-color: #1E1E1E;
+       
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #5b5a5a; 
+    color: white;
+    padding: 15px;
+    font-size: 14px;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1E1E1E;
+    font-family: Arial, sans-serif;
+}
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #292929;
+    color: white;
+    margin-top: 0%;
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #3a3a3a;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.search-bar input {
+    border: none;
+    background: transparent;
+    color: white;
+    padding: 5px;
+    outline: none;
+}
+
+.search-bar button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.search-bar img {
+    width: 15px;
+}
+
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    margin: 0 20px;
+    font-size: 14px;
+}
+
+.menu span {
+    color: purple;
+    font-size: 18px;
+}
+
+
+.perfil img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+

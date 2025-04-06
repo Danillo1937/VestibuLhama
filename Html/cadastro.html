@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/BackGround-NavBar-Footer.css">
+    <link rel="stylesheet" href="../CSS/Cadastro.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <title>Cadastro Vestibulhama</title>
+</head>
+
+<body>
+
+
+    <div class="logo">
+        <a href=""></a> <img src="../Imagens/Icone.webp" alt="VestibuLhama"></a>
+        <span>VestibuLhama</span>
+    </div>
+
+    <div class="Tela">
+        <div class="logoTitulo">
+            <img src="../Imagens/LhamaCadastro.png" alt="Imagem Lhama" id="LhamaCadastro">
+            <h1>VestibuLhama</h1>
+        </div>
+        <div class="fundoCadastro">
+            <form action="../PHP/cadastrarUsuario.php" method="get">
+                <div class="CadastrarUsuario">
+                    <h1>Cadastrar-Se</h1><br>
+                    <div class="input-group mb-3">
+                        <input type="text" name="nome" class="form-control" aria-label="Sizing example input"
+                            aria-describedby="inputGroup-sizing-default" placeholder="nome" required>
+                    </div>
+                    <div class="input-group mb-3">
+                        <input type="text" name="email" class="form-control" aria-label="Sizing example input"
+                            aria-describedby="inputGroup-sizing-default" placeholder="E-mail" required>
+                    </div>
+                    <div class="input-group mb-3">
+                        <input type="text" name="senha" class="form-control" aria-label="Sizing example input"
+                            aria-describedby="inputGroup-sizing-default" placeholder="Senha" required>
+                    </div>
+                    <div class="input-group mb-3">
+                        <input type="text" name="confirmarSenha " class="form-control" aria-label="Sizing example input"
+                            aria-describedby="inputGroup-sizing-default" placeholder="Confirmar Senha" required>
+
+                    </div><br>
+                    <input type="button" class="btnCadastro" value="Criar Conta">
+            </form>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
