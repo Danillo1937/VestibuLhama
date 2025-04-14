@@ -12,7 +12,7 @@
     <header class="navbar">
         <div class="logo">
             <img src="../Imagens/Icone.webp" alt="VestibuLhama">
-            <span>VestibuLhama</span>
+         <nav class="menu"><a href="index.html">VestibuLhama</a></nav>
         </div>
 
         <div class="search-bar">
@@ -21,18 +21,40 @@
         </div>
 
         <nav class="menu">
-            <a href="#">Sobre</a>
+            <a href="#">Créditos</a>
             <span>›</span>
             <a href="#">Instituições</a>
         </nav>
-
+<!--Menu suspenso-->
         <div class="perfil">
-            <img src="../Imagens/LogoUsuário.png" alt="Perfil">
+            <img src="../Imagens/LogoUsuário.png" alt="Perfil" id="perfil-icon">
+            <div class="menu-suspenso" id="menu-suspenso">
+                <a href="#">Meu Perfil</a>
+                <a href="../Html/cadastro.html">Cadastro</a>
+                <a href="#">Login</a>
+                <a href="#">Sair</a>
+            </div>
         </div>
+        <!-- Fim do menu suspenso-->
     </header>
-
+    <!--Costa-->
+    <div class="container">
+    <div class="banner-principal">
+         <a href="https://querobolsa.com.br/revista/turma-de-verao"><img src="../Imagens/img.png" alt="Estudar de Verão 2024"></a>
+    </div>
+    
+    
+    <div class="imagens-laterais">
+        <a href="https://www.gov.br/mec/pt-br/assuntos/noticias/2025/marco/enem-2025-periodo-para-pedir-isencao-da-taxa-comeca-em-14-4"><img src="../Imagens/enem.webp" alt="Estudantes felizes"></a>
+        <a href="https://www.estudarfora.org.br/rotina-de-estudos/"><img src="../Imagens/estudando.webp" alt="Pessoa fazendo prova"></a>
+        <a href="https://vestibular2025.uneb.br/"><img src="../Imagens/vest.jpg" alt="Pessoa fazendo prova"></a>
+        <a href="https://vestibular2024.uneb.br/"><img src="../Imagens/menina2.jpg" alt="Pessoa fazendo prova"></a>
+      </div></div>
     <footer>
-        <p></p>
+        <p>© VestibuLhama - 2025</p>
     </footer>
+
+<!--fim costa e começo js-->
+<script src="../JS/menususpenso.js"></script>
 </body>
 </html>
