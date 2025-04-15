@@ -72,6 +72,7 @@ body {
     margin: 20px;
 }
 
+
 /*Essas linhas aqui em baixo é oque deixa o site responsito*/
 @media (max-width: 576px)/*aqui eu to falando o widht que ele meio q começa a mudar, 576px é o tamanho médio dos celular*/ {
     .CadastrarUsuario {
