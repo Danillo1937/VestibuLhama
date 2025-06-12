@@ -1,0 +1,79 @@
+/*Botões e sobre*/
+
+.recursos-servicos {
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+}
+
+.recursos-servicos h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.recursos-servicos h2 span {
+    color: violet;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 300px;
+    background-color: #2e2e2e;
+    border-radius: 12px;
+    padding: 15px;
+    transition: transform 0.3s;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+    height: 120px;
+    object-fit: cover;
+}
+
+.card p {
+    color: white;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.sobre-nos {
+    margin-top: 60px;
+    padding: 0 40px;
+    color: white;
+}
+
+.sobre-nos h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.sobre-nos h2 span {
+    color: violet;
+}
+
+.sobre-container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.sobre-container img {
+    width: 150px;
+}
+
+.sobre-container p {
+    flex: 1;
+    font-size: 16px;
+    line-height: 1.6;
+}

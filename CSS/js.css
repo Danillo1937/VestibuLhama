@@ -1,0 +1,27 @@
+/*JS*/
+
+.menu-suspenso {
+    display: none;
+    position: absolute;
+    right: 20px;
+    top: 70px; /* Ajuste conforme a altura da navbar */
+    background-color: #333333;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    padding: 10px;
+    flex-direction: column;
+    z-index: 10;
+}
+
+.menu-suspenso a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 8px 12px;
+    display: block;
+    font-size: 14px;
+}
+
+.menu-suspenso a:hover {
+    background-color: #505050;
+    border-radius: 6px;
+}

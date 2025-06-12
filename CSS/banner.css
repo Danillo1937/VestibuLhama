@@ -1,0 +1,58 @@
+/*Costa*/
+
+/* Container geral que agrupa o banner e as imagens laterais */
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 60px;
+
+}
+
+/* Banner */
+.banner-principal {
+    position: relative;
+    width: 700px;
+    height: 500px;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.banner-principal img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.btn-inscricao {
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    background: #f0b429;
+    border: none;
+    color: #000;
+    font-weight: bold;
+    padding: 12px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Coluna de imagens pequenas */
+.imagens-laterais {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distribui igualmente */
+    height: 500px; /* Mesma altura do banner */
+}
+
+.imagens-laterais img {
+    width: 300px;
+    height: auto;
+    max-height: 110px; /* Limita a altura para ficar bonito */
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+    flex: 1;
+}

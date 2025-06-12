@@ -1,0 +1,98 @@
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adicionar Questão</title>
+    <link rel="stylesheet" href="../CSS/adicionarNovaQuestao.css" />
+    <link rel="stylesheet" href="../CSS/BackGround-NavBar-Footer.css" />
+    <link rel="stylesheet" href="../CSS/animacoes.css" />
+    <link rel="stylesheet" href="../CSS/js.css" />
+
+    <link rel="stylesheet" href="../JS/menususpenso.js" />
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="logo">
+            <a href="index.html"><img src="../Imagens/icone.png" alt="VestibuLhama"></a>
+            <nav class="menu"><a href="index.html">VestibuLhama</a></nav>
+        </div>
+
+        <div class="search-bar">
+            <input type="text" placeholder="Pesquisar Prova">
+            <button><img src="../Imagens/Lupa.png" alt="Buscar"></button>
+        </div>
+
+        <nav class="menu">
+            <a href="vestibulares.html">Vestibulares</a>
+            <span>›</span>
+            <a href="ranking.html">Ranking</a>
+            <span>›</span>
+            <a href="#">Simulados</a>
+        </nav>
+        <!--Menu suspenso-->
+        <div class="perfil">
+            <img src="../Imagens/LogoUsuário.png" alt="Perfil" id="perfil-icon">
+            <div class="menu-suspenso" id="menu-suspenso">
+                <a href="..//Html/cadastroQuestao.html">Cadastrar Nova Questão</a>
+                <a href="../Html/cadastro.html">Perfil</a>
+                <a href="login.html">Sair</a>
+            </div>
+        </div>
+        <!-- Fim do menu suspenso-->
+    </header>
+
+    <div class="form-container">
+        <h1>Adicionar Nova <span class="highlight">Questão</span></h1>
+        <form>
+            <label>Faculdade</label>
+            <input type="text" class="texto" />
+
+            <label>Matéria</label>
+            <input type="text" class="texto" />
+
+            <label>Enunciado da Questão</label>
+            <input type="text" class="texto" />
+
+            <div class="mb-3">
+                <label for="formFileDisabled" class="form-label">Disabled file input example</label>
+                <input class="form-control" type="file" style="background-color: 5a5a5a; color: white;"
+                    id="formFileDisabled" disabled>
+            </div> <label>Alternativa Correta (A, B, C, D, E)</label>
+            <input type="text" class="texto" />
+
+            <label>Alternativa A</label>
+            <input type="text" class="texto" />
+
+            <label>Alternativa B</label>
+            <input type="text" class="texto" />
+
+            <label>Alternativa C</label>
+            <input type="text" class="texto" />
+
+            <label>Alternativa D</label>
+            <input type="text" class="texto" />
+
+            <label>Alternativa E</label>
+            <input type="text" class="texto" />
+
+            <label>Ano da Prova</label>
+            <input type="text" class="texto" />
+
+            <div class="button-group">
+                <button type="submit">Adicionar Questão</button>
+                <button type="button">Adicionar Mais</button>
+            </div>
+        </form>
+    </div><br>
+    <footer>
+        <p>© VestibuLhama - 2025</p>
+    </footer>
+</body>
+
+</html>

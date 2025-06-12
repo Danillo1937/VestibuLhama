@@ -10,6 +10,7 @@ body {
     background-position: center;
     background-size: cover;
     min-height: 100vh;
+    overflow: hidden;
 }
 
 #LhamaCadastro {
@@ -36,7 +37,7 @@ body {
     gap: 1rem;
 }
 
-.CadastrarUsuario {
+.LoginUsuario {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -47,9 +48,10 @@ body {
     border-radius: 10px;
     padding: 2rem;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+
 }
 
-.btnCadastro {
+.btnLogin {
     height: 45px;
     width: 100%;
     background-color: #4F308E;
@@ -74,7 +76,7 @@ body {
 
 /*Essas linhas aqui em baixo é oque deixa o site responsito*/
 @media (max-width: 576px)/*aqui eu to falando o widht que ele meio q começa a mudar, 576px é o tamanho médio dos celular*/ {
-    .CadastrarUsuario {
+    .LoginUsuario {
         padding: 1rem;
     }
 
